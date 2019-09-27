@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:id="@+id/toolbar"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:background="@color/colorPrimary" />
+
+        <RelativeLayout
+            android:paddingHorizontal="10dp"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal"
+            android:layout_height="?attr/actionBarSize">
+
+            <android.support.design.chip.Chip
+                android:id="@+id/chp_visitDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:chipIcon="@drawable/ic_plus_24"
+                android:text="Date"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:gravity="right"
+                android:textAlignment="gravity"
+                android:id="@+id/txt_visitCurrentDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/ly_chipsGroup"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBorder" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/mainPager"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp" />
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        app:borderWidth="0dp"
+        android:id="@+id/fab_visitsAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:backgroundTint="@android:color/white"
+        android:src="@drawable/ic_plus_24"/>
+
+
+</android.support.design.widget.CoordinatorLayout>

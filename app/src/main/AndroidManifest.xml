@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="fr.delaporte.laboratoireGSB">
+
+    <application
+        android:name="fr.delaporte.laboratoireGSB.LaboratoireApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name="fr.delaporte.laboratoireGSB.ui.modules.login.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="fr.delaporte.laboratoireGSB.ui.modules.activity.ActivitesActivity" />
+        <activity android:name="fr.delaporte.laboratoireGSB.ui.modules.activity.ActivityActivity" />
+        <activity android:name="fr.delaporte.laboratoireGSB.ui.modules.activity.ActivityAddActivity" android:label="Ajouter une activité" />
+
+        <activity android:name="fr.delaporte.laboratoireGSB.ui.modules.visit.VisitActivity" />
+        <activity android:name="fr.delaporte.laboratoireGSB.ui.modules.visit.VisitsActivity" />
+        <activity android:name="fr.delaporte.laboratoireGSB.ui.modules.visit.VisitAddActivity" android:label="Ajouter une visite" />
+
+        <activity android:name="fr.delaporte.laboratoireGSB.ui.modules.drug.DrugsActivity" android:label="Médicaments en stock" />
+        <activity android:name="fr.delaporte.laboratoireGSB.ui.modules.drug.DrugAddActivity" android:label="Ajouter un médicament" />
+
+        <activity android:name="fr.delaporte.laboratoireGSB.ui.modules.personnel.PersonnelsActivity" android:label="Liste du personnel" />
+        <activity android:name="fr.delaporte.laboratoireGSB.ui.modules.personnel.PersonnelActivity" />
+        <activity android:name="fr.delaporte.laboratoireGSB.ui.modules.personnel.PersonnelAddActivity" android:label="Ajouter un personnel" />
+
+        <activity android:name="fr.delaporte.laboratoireGSB.ui.modules.practitioner.PractitionersActivity" android:label="Liste des practiciens" />
+        <activity android:name="fr.delaporte.laboratoireGSB.ui.modules.practitioner.PractitionerActivity" />
+        <activity android:name="fr.delaporte.laboratoireGSB.ui.modules.practitioner.PractitionerAddActivity" android:label="Ajouter un practicien" />
+
+    </application>
+
+</manifest>

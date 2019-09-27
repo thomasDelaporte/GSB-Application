@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_item_visites"
+        android:title="Visites" />
+    <item
+        android:id="@+id/menu_item_personnels"
+        android:title="Personnels" />
+    <item
+        android:id="@+id/menu_item_practitioners"
+        android:title="Practiciens" />
+    <item
+        android:id="@+id/menu_item_drugs"
+        android:title="Médicaments" />
+    <item
+        android:id="@+id/menu_item_activites"
+        android:title="Activités" />
+
+    <item
+        android:id="@+id/menu_item_logout"
+        android:title="Déconnexion" />
+
+</menu>

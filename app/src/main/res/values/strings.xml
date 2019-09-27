@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Laboratoire GSB</string>
+    <string name="aucune_visite">Aucune visite</string>
+    <string name="ajouter_un_medicament">Ajouter un médicament</string>
+    <string name="aucun_medicaments">Aucun médicaments</string>
+    <string name="create_practitioner">Créer un practicien</string>
+    <string name="adress">Adresse</string>
+    <string name="aucune_activites">Aucune activités</string>
+    <string name="add_activity">Ajouter une activité</string>
+    <string name="aucun_medicament">Aucun médicament en stock</string>
+    <string name="quantity">Quantité</string>
+    <string name="login">Connexion</string>
+    <string name="email">Email</string>
+    <string name="name">Nom</string>
+    <string name="surname">Prénom</string>
+    <string name="password">Mot de passe</string>
+    <string name="txt_empty">Le champ ne peut être vide.</string>
+    <string name="add_medicament">Ajouter un médicament</string>
+</resources>
